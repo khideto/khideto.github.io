@@ -9,7 +9,7 @@ function calculationCalorie(ageValue,heightValue,weightValue){
     }else{
         calorie = (0.0481 * weightValue + 0.0234 * heightValue - 0.0138 * ageValue - 0.9708) * 1000 / 4.186;
     }
-    console.log(calorie);
+    alert(calorie);
 }
 
 
@@ -67,6 +67,5 @@ function ageCalculation(inputAge){
         nowAge = year - birthday.getFullYear() - 1;
     }
     return nowAge;
-    //document.querySelector('#age').insertBefore('afterbegin', '<p>JavaScript</p>');
 
 }
