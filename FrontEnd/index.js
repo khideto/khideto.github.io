@@ -46,7 +46,7 @@ function baseCalorieCalculation(){
             }else{
             }
         }
-        alert(`${alertText}が未入力です。値を入力してから実行してください。`)
+        alert(`${alertText}が未入力です。値を入力してから実行してください。`);
     }else{
         const returnAge = ageCalculation(inputAge[0]);
         calculationCalorie(returnAge,inputHeight[0],inputWeight[0]);
